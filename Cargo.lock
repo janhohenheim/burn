@@ -1726,7 +1726,7 @@ dependencies = [
 [[package]]
 name = "cubecl"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-convolution",
  "cubecl-core",
@@ -1745,7 +1745,7 @@ dependencies = [
 [[package]]
 name = "cubecl-common"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cfg-if",
@@ -1774,7 +1774,7 @@ dependencies = [
 [[package]]
 name = "cubecl-convolution"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1792,7 +1792,7 @@ dependencies = [
 [[package]]
 name = "cubecl-core"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bitflags 2.9.3",
  "bytemuck",
@@ -1815,7 +1815,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cpp"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1829,7 +1829,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cpu"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1851,7 +1851,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cuda"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1868,7 +1868,7 @@ dependencies = [
 [[package]]
 name = "cubecl-hip"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1897,7 +1897,7 @@ dependencies = [
 [[package]]
 name = "cubecl-ir"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-common",
  "cubecl-macros-internal",
@@ -1915,7 +1915,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-common",
  "darling 0.21.3",
@@ -1930,7 +1930,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros-internal"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "darling 0.21.3",
  "proc-macro2",
@@ -1941,7 +1941,7 @@ dependencies = [
 [[package]]
 name = "cubecl-matmul"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1958,7 +1958,7 @@ dependencies = [
 [[package]]
 name = "cubecl-opt"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-common",
  "cubecl-core",
@@ -1975,7 +1975,7 @@ dependencies = [
 [[package]]
 name = "cubecl-quant"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -1987,7 +1987,7 @@ dependencies = [
 [[package]]
 name = "cubecl-random"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-common",
  "cubecl-core",
@@ -2002,7 +2002,7 @@ dependencies = [
 [[package]]
 name = "cubecl-reduce"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -2017,7 +2017,7 @@ dependencies = [
 [[package]]
 name = "cubecl-runtime"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "async-channel",
  "bytemuck",
@@ -2043,7 +2043,7 @@ dependencies = [
 [[package]]
 name = "cubecl-spirv"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "bitflags 2.9.3",
  "cubecl-common",
@@ -2059,7 +2059,7 @@ dependencies = [
 [[package]]
 name = "cubecl-std"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -2070,7 +2070,7 @@ dependencies = [
 [[package]]
 name = "cubecl-wgpu"
 version = "0.7.0"
-source = "git+https://github.com/janhohenheim/cubecl?rev=a4e4114e7955713a0f713f23d2a00a63238bc36c#a4e4114e7955713a0f713f23d2a00a63238bc36c"
+source = "git+https://github.com/janhohenheim/cubecl?branch=wgpu-26#7ea29fa3efc00de1e20820c8292fb19b5c82bc72"
 dependencies = [
  "ash",
  "async-channel",
