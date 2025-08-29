@@ -157,9 +157,9 @@ portable-atomic = { version = "1.11.1" }
 portable-atomic-util = { version = "0.2.4", features = ["alloc"] }
 
 ### For the main burn branch. ###
-cubecl = { git = "https://github.com/janhohenheim/cubecl", default-features = false, branch = "wgpu-26" }
-cubecl-common = { git = "https://github.com/janhohenheim/cubecl", default-features = false, branch = "wgpu-26" }
-cubecl-quant = { git = "https://github.com/janhohenheim/cubecl", default-features = false, branch = "wgpu-26" }
+cubecl = { git = "https://github.com/janhohenheim/cubecl", default-features = false, rev = "a4e4114e7955713a0f713f23d2a00a63238bc36c" }
+cubecl-common = { git = "https://github.com/janhohenheim/cubecl", default-features = false, rev = "a4e4114e7955713a0f713f23d2a00a63238bc36c" }
+cubecl-quant = { git = "https://github.com/janhohenheim/cubecl", default-features = false, rev = "a4e4114e7955713a0f713f23d2a00a63238bc36c" }
 ### For local development. ###
 # cubecl = { path = "../cubecl/crates/cubecl", default-features = false }
 # cubecl-common = { path = "../cubecl/crates/cubecl-common", default-features = false }
